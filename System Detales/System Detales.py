@@ -1,0 +1,25 @@
+import platform
+import os
+
+os.system('@echo off')
+os.system('color 09')
+print("\n\n")
+print("|")
+print("■ Software Information")
+print("|")
+print("● Operating System ~ " + platform.system())
+print("|")
+print("● Operating System Release ~ " + platform.release())
+print("| ")
+print("● Operating System Build (OS Version) ~ " + platform.version())
+print("|")
+print("● Operation System Build ~ " + platform.machine())
+print("|")
+print("■ Hardware Information")
+print("|")
+print("● Device Name ~ " + platform.node())
+print("|")
+print("● Proccessor ~ " + platform.processor())
+print("|")
+
+input()
